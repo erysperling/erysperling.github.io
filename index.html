@@ -7,6 +7,8 @@
  <title>Untitled Document</title>
  <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
+ <script src="https://get.mavo.io/mavo.js"></script>
  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
@@ -17,36 +19,16 @@
         <h1>Conférence</h1>
     </header>
 
-    <main>
+    <main mv-app="webapperys" mv-storage="https://github.com/erysperling" mv-plugins="locale-fr">
         <div class="catalog-list">
-            <article class="catalog-item">
+            <article class="catalog-item" property="conference" mv-multiple> 
                 <img src="img/aurelie.jpg" alt="Prestashop" class="item-img">
                 <div class="item-content">
                   <time>12 Déc. 2017</time>
                   <h3 class="catalog-title">Titre</h3>
                 </div>
             </article>
-            <article class="catalog-item">
-                <img src="img/bastouche.jpg" alt="Prestashop" class="item-img">
-                <div class="item-content">
-                  <time>12 Déc. 2017</time>
-                  <h3 class="catalog-title">Titre</h3>
-                </div>
-            </article>
-            <article class="catalog-item">
-                <img src="img/dedecheri.jpg" alt="Prestashop" class="item-img">
-                <div class="item-content">
-                  <time>12 Déc. 2017</time>
-                  <h3 class="catalog-title">Titre</h3>
-                </div>
-            </article>
-            <article class="catalog-item">
-                <img src="img/guillaumette.jpg" alt="Prestashop" class="item-img">
-                <div class="item-content">
-                  <time>12 Déc. 2017</time>
-                  <h3 class="catalog-title">Titre</h3>
-                </div>
-            </article>
+           
         </div>
     </main>
 
